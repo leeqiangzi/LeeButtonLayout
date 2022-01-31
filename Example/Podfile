@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'LeeButtonLayout_Example' do
+  pod 'LeeButtonLayout', :path => '../'
+
+  target 'LeeButtonLayout_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
