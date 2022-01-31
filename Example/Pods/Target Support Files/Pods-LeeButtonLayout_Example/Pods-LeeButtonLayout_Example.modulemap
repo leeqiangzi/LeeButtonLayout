@@ -1,0 +1,6 @@
+framework module Pods_LeeButtonLayout_Example {
+  umbrella header "Pods-LeeButtonLayout_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

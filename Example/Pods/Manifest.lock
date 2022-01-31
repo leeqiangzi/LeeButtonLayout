@@ -1,0 +1,16 @@
+PODS:
+  - LeeButtonLayout (0.1.0)
+
+DEPENDENCIES:
+  - LeeButtonLayout (from `../`)
+
+EXTERNAL SOURCES:
+  LeeButtonLayout:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeeButtonLayout: 171edd0efa4a5d02c3e6c3e14f15f08ed0cf8386
+
+PODFILE CHECKSUM: 7ac587fffc3f2b19ce91d1f455244bdcc048731c
+
+COCOAPODS: 1.11.2

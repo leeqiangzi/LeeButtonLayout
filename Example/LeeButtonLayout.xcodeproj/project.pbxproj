@@ -37,10 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D01FC09168531C3D9B416F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17D01FC09168531C3D9B416F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3D06A84D847629BED401C59B /* Pods-LeeButtonLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeButtonLayout_Example.release.xcconfig"; path = "Target Support Files/Pods-LeeButtonLayout_Example/Pods-LeeButtonLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
-		464150366750761BA6FEDE02 /* LeeButtonLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LeeButtonLayout.podspec; path = ../LeeButtonLayout.podspec; sourceTree = "<group>"; };
-		4B1B06B22D9D05541EE70ECE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		464150366750761BA6FEDE02 /* LeeButtonLayout.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LeeButtonLayout.podspec; path = ../LeeButtonLayout.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4B1B06B22D9D05541EE70ECE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4E5082AA5980D225586354DA /* Pods-LeeButtonLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeeButtonLayout_Tests.release.xcconfig"; path = "Target Support Files/Pods-LeeButtonLayout_Tests/Pods-LeeButtonLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LeeButtonLayout_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeeButtonLayout_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				7EB611C07572121351A50FE8 /* Pods-LeeButtonLayout_Tests.debug.xcconfig */,
 				4E5082AA5980D225586354DA /* Pods-LeeButtonLayout_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
