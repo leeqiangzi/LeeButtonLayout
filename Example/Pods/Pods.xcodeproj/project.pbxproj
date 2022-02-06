@@ -7,69 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B4E506216013FE94F2DB7351DA158BC /* LeeButtonLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58E254AE68FD1CE3296456C43141BE06 /* LeeButtonLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01B248517E103BFA5B21C93134770CC2 /* UIButton+LEELayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1E5A463B51F36A76FEFE0C6C407351 /* UIButton+LEELayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		302CF9728F3B139648AB439F0624AD08 /* LeeButtonLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD7C5AE98EC50577BA5463C63B91C36 /* LeeButtonLayout-dummy.m */; };
+		3F81A2488E045D3F071F828857563FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		455723A2C63DB05C3610B7A02E36D008 /* Pods-LeeButtonLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDE9DF4D452446B97DEFD918015BA8CB /* Pods-LeeButtonLayout_Example-dummy.m */; };
-		48ED6AF2AA8DD2C77A97E8BC0336E4C3 /* UIButton+LEELayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C75142D21D7966FE8EE9CE783182E627 /* UIButton+LEELayout.m */; };
 		5079F652BEF62D3229BD0503A557216C /* Pods-LeeButtonLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99E5E031F0FCA881427DBD00E6925B5B /* Pods-LeeButtonLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53CF7FEB2CFE87CD148AC1939C5DC99E /* UIButton+LEELayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F629521D29EC85A3DD9389115792358 /* UIButton+LEELayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72B495E7D7E4115DAE0DC6435CD39A38 /* LeeButtonLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 723E6A266F3A787DE18259D924280F77 /* LeeButtonLayout-dummy.m */; };
+		5DEC0CD182F0682E5469819DE7E53914 /* LeeButtonLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C91894B791FB68D02465D9642918D5D0 /* LeeButtonLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86D88325ED9230AFC5EB99BC7475CF5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		89E090CF7F078E58299F82E86E65CDB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		89F775B83D6376C5E446BE64A8E453C8 /* UIButton+LEELayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 031F06384BB69959DAE137BC6C439C4D /* UIButton+LEELayout.m */; };
+		9C3D8959A6344E39582FEE2B516C7049 /* Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 045B5534283DBFB03C3F90ECBC38BE1A /* Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0F233469959CAC69B366647DED635EE /* Pods-LeeButtonLayout_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 522BA8051E72AA3E2E1EF93A546F275F /* Pods-LeeButtonLayout_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E28C80737187EFB9F5C7E823FAC8BBDD /* Pods-LeeButtonLayout_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E92B275DBDAB461ABBE36E11ACB9522F /* Pods-LeeButtonLayout_Tests-dummy.m */; };
 		EC7D909E16D973E2A217569586808ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78081B226BF587ABCCD17217DB24282D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DF8C4A088A761FE31CEDC34ECF34725;
-			remoteInfo = LeeButtonLayout;
-		};
-		7E58A9ED3EFACE9DCB7E11F79A3C91E2 /* PBXContainerItemProxy */ = {
+		0B52CD98F81AAD426DB5E95396017F8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4CC15629B948AFFAE8EC80FE772F0F36;
 			remoteInfo = "Pods-LeeButtonLayout_Example";
 		};
+		ED4574091D9C53163727B9F39968F627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DF8C4A088A761FE31CEDC34ECF34725;
+			remoteInfo = LeeButtonLayout;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		054B020E392D03E14C5C2A726BF79CC1 /* LeeButtonLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeButtonLayout-prefix.pch"; sourceTree = "<group>"; };
+		031F06384BB69959DAE137BC6C439C4D /* UIButton+LEELayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LEELayout.m"; sourceTree = "<group>"; };
+		045B5534283DBFB03C3F90ECBC38BE1A /* Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		0880D445F0D01494E4A37C768C914392 /* Pods-LeeButtonLayout_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeeButtonLayout_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2317BAA55A20397DCDB8AB1E99E2805A /* LeeButtonLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LeeButtonLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		24161AEDE91A154FC19CF09EB3FE9366 /* LeeButtonLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeeButtonLayout.modulemap; sourceTree = "<group>"; };
-		2BEDC514AEAF2D150D8C98A69F1F307B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		11C440A5D863788F754FEE58C5E9B6EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3006F975AE075BF752F3C47A85685C60 /* Pods-LeeButtonLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeeButtonLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+		331ED5AA629F0218BB2AD7E0A7334D0A /* LeeButtonLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeeButtonLayout.release.xcconfig; sourceTree = "<group>"; };
 		36885253D6D30F63D6D09063D4725BF4 /* LeeButtonLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeeButtonLayout; path = LeeButtonLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3E3A98E5254DED2DF29EEE6D6D8BA4 /* Pods-LeeButtonLayout_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeButtonLayout_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B667396E83CFA9AE628647BDED4C709 /* Pods-LeeButtonLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeButtonLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3F629521D29EC85A3DD9389115792358 /* UIButton+LEELayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+LEELayout.h"; path = "LeeButtonLayout/Classes/UIButton+LEELayout.h"; sourceTree = "<group>"; };
 		42DA1C09337A12DBCCC3320E353A06B8 /* Pods-LeeButtonLayout_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeButtonLayout_Tests-Info.plist"; sourceTree = "<group>"; };
-		4B8ECB1E770898A6547D87AC3FB13B59 /* LeeButtonLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeeButtonLayout-Info.plist"; sourceTree = "<group>"; };
 		522BA8051E72AA3E2E1EF93A546F275F /* Pods-LeeButtonLayout_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeeButtonLayout_Tests-umbrella.h"; sourceTree = "<group>"; };
-		58E254AE68FD1CE3296456C43141BE06 /* LeeButtonLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeButtonLayout-umbrella.h"; sourceTree = "<group>"; };
+		5E1C9A6C002261BD2C6509ACF42F8511 /* LeeButtonLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeButtonLayout-prefix.pch"; sourceTree = "<group>"; };
 		699E2FB5C836F85079F9AB792FFF1DBD /* Pods-LeeButtonLayout_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeeButtonLayout_Tests.modulemap"; sourceTree = "<group>"; };
-		703FED69897C5130E0EA2DD042273627 /* LeeButtonLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeeButtonLayout.release.xcconfig; sourceTree = "<group>"; };
-		723E6A266F3A787DE18259D924280F77 /* LeeButtonLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeeButtonLayout-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B0BEA284F95F87F97AA316742E6F067 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		81769BAE6A6405F2713628AEE1FF9204 /* Pods-LeeButtonLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeButtonLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8252D6D07B1EED680308CBCECADF1CDD /* LeeButtonLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeeButtonLayout.debug.xcconfig; sourceTree = "<group>"; };
 		869BD579BF9A9A84EC57A2A2D7E17B5C /* Pods-LeeButtonLayout_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeeButtonLayout_Tests"; path = Pods_LeeButtonLayout_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1E5A463B51F36A76FEFE0C6C407351 /* UIButton+LEELayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+LEELayout.h"; sourceTree = "<group>"; };
 		92483574E4475A8E505FC2FC8DB6A8EE /* Pods-LeeButtonLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeeButtonLayout_Example.modulemap"; sourceTree = "<group>"; };
-		9465CEA5780EDBFC1EB05A0B0A1E6C39 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		950F758152931B4F1387B045B24C7709 /* Pods-LeeButtonLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeeButtonLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		974AA34377E50E10467372DC84FD7956 /* Pods-LeeButtonLayout_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeButtonLayout_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		99E5E031F0FCA881427DBD00E6925B5B /* Pods-LeeButtonLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeeButtonLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		9A888628C469634C3FA2C45464751D0F /* LeeButtonLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeeButtonLayout-Info.plist"; sourceTree = "<group>"; };
+		9BAED6195854812925B69F1302CFDDA4 /* LeeButtonLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeeButtonLayout.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6E331C70FBE8FBDAC76BC91C88E430B /* LeeButtonLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeeButtonLayout.debug.xcconfig; sourceTree = "<group>"; };
 		BCFF39A787BD00924AB7515AD58CC776 /* Pods-LeeButtonLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeeButtonLayout_Example"; path = Pods_LeeButtonLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCC1A21F3002874F46F0A5878B80EC7 /* Pods-LeeButtonLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeeButtonLayout_Example-Info.plist"; sourceTree = "<group>"; };
 		C11A64F8E284F41E897DFC67C2758E1E /* Pods-LeeButtonLayout_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeButtonLayout_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C75142D21D7966FE8EE9CE783182E627 /* UIButton+LEELayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+LEELayout.m"; path = "LeeButtonLayout/Classes/UIButton+LEELayout.m"; sourceTree = "<group>"; };
+		C91894B791FB68D02465D9642918D5D0 /* LeeButtonLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeeButtonLayout-umbrella.h"; sourceTree = "<group>"; };
 		CDE9DF4D452446B97DEFD918015BA8CB /* Pods-LeeButtonLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeeButtonLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		D7955597886441B6A107A108962FA5A4 /* LeeButtonLayout.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LeeButtonLayout.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DBD7C5AE98EC50577BA5463C63B91C36 /* LeeButtonLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeeButtonLayout-dummy.m"; sourceTree = "<group>"; };
 		E92B275DBDAB461ABBE36E11ACB9522F /* Pods-LeeButtonLayout_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeeButtonLayout_Tests-dummy.m"; sourceTree = "<group>"; };
 		FA58BD32560482151A3B48A68048722D /* Pods-LeeButtonLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeeButtonLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B0B2E66CFE9897A15B595D7DFF13B687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F81A2488E045D3F071F828857563FFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E0BE3972735E040068B6DA571E023F2F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -91,37 +101,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F234C69735A6A690DE0D717ECE9D5EB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89E090CF7F078E58299F82E86E65CDB9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		037F299BA5E941A013B4EC5B90B1F9E3 /* Pod */ = {
+		22F7F0FCF0E870F223F1D3FF2F6B4637 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				2317BAA55A20397DCDB8AB1E99E2805A /* LeeButtonLayout.podspec */,
-				2BEDC514AEAF2D150D8C98A69F1F307B /* LICENSE */,
-				9465CEA5780EDBFC1EB05A0B0A1E6C39 /* README.md */,
+				8B1E5A463B51F36A76FEFE0C6C407351 /* UIButton+LEELayout.h */,
+				031F06384BB69959DAE137BC6C439C4D /* UIButton+LEELayout.m */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		52CDAC4F677B44DC41969E0E5450B255 /* LeeButtonLayout */ = {
-			isa = PBXGroup;
-			children = (
-				3F629521D29EC85A3DD9389115792358 /* UIButton+LEELayout.h */,
-				C75142D21D7966FE8EE9CE783182E627 /* UIButton+LEELayout.m */,
-				037F299BA5E941A013B4EC5B90B1F9E3 /* Pod */,
-				81886F7C5333089EE76AC10B96D30B68 /* Support Files */,
-			);
-			name = LeeButtonLayout;
-			path = ../..;
+			name = Category;
+			path = LeeButtonLayout/Classes/Category;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -132,19 +122,26 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		81886F7C5333089EE76AC10B96D30B68 /* Support Files */ = {
+		7C2BA5C8F5F8AD783C3DD2967DB4E4F3 /* LeeButtonLayout */ = {
 			isa = PBXGroup;
 			children = (
-				24161AEDE91A154FC19CF09EB3FE9366 /* LeeButtonLayout.modulemap */,
-				723E6A266F3A787DE18259D924280F77 /* LeeButtonLayout-dummy.m */,
-				4B8ECB1E770898A6547D87AC3FB13B59 /* LeeButtonLayout-Info.plist */,
-				054B020E392D03E14C5C2A726BF79CC1 /* LeeButtonLayout-prefix.pch */,
-				58E254AE68FD1CE3296456C43141BE06 /* LeeButtonLayout-umbrella.h */,
-				A6E331C70FBE8FBDAC76BC91C88E430B /* LeeButtonLayout.debug.xcconfig */,
-				703FED69897C5130E0EA2DD042273627 /* LeeButtonLayout.release.xcconfig */,
+				22F7F0FCF0E870F223F1D3FF2F6B4637 /* Category */,
+				B7BFFE0938214E5FC5B48F622B973B78 /* Pod */,
+				F9D8C8BE09755A49C658F1E50E1FC866 /* Support Files */,
+				F77E4D94D831C781AA68A0766B70F79D /* Tool */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LeeButtonLayout";
+			name = LeeButtonLayout;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B7BFFE0938214E5FC5B48F622B973B78 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D7955597886441B6A107A108962FA5A4 /* LeeButtonLayout.podspec */,
+				11C440A5D863788F754FEE58C5E9B6EE /* LICENSE */,
+				7B0BEA284F95F87F97AA316742E6F067 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BD2753C39BBAAE2E43B7638E76691291 /* Products */ = {
@@ -221,20 +218,45 @@
 		F1ECA321E05BCF7F17D2C1F0CEFDB647 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				52CDAC4F677B44DC41969E0E5450B255 /* LeeButtonLayout */,
+				7C2BA5C8F5F8AD783C3DD2967DB4E4F3 /* LeeButtonLayout */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F77E4D94D831C781AA68A0766B70F79D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				045B5534283DBFB03C3F90ECBC38BE1A /* Tool.h */,
+			);
+			name = Tool;
+			path = LeeButtonLayout/Classes/Tool;
+			sourceTree = "<group>";
+		};
+		F9D8C8BE09755A49C658F1E50E1FC866 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BAED6195854812925B69F1302CFDDA4 /* LeeButtonLayout.modulemap */,
+				DBD7C5AE98EC50577BA5463C63B91C36 /* LeeButtonLayout-dummy.m */,
+				9A888628C469634C3FA2C45464751D0F /* LeeButtonLayout-Info.plist */,
+				5E1C9A6C002261BD2C6509ACF42F8511 /* LeeButtonLayout-prefix.pch */,
+				C91894B791FB68D02465D9642918D5D0 /* LeeButtonLayout-umbrella.h */,
+				8252D6D07B1EED680308CBCECADF1CDD /* LeeButtonLayout.debug.xcconfig */,
+				331ED5AA629F0218BB2AD7E0A7334D0A /* LeeButtonLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LeeButtonLayout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1CF6A0D8C6FBB5FEC35495C284B9AB6B /* Headers */ = {
+		4E85B510A53C5B35C1A03BD078A09A48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B4E506216013FE94F2DB7351DA158BC /* LeeButtonLayout-umbrella.h in Headers */,
-				53CF7FEB2CFE87CD148AC1939C5DC99E /* UIButton+LEELayout.h in Headers */,
+				5DEC0CD182F0682E5469819DE7E53914 /* LeeButtonLayout-umbrella.h in Headers */,
+				9C3D8959A6344E39582FEE2B516C7049 /* Tool.h in Headers */,
+				01B248517E103BFA5B21C93134770CC2 /* UIButton+LEELayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +291,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B8B9E13A6E34C99DBD0F49CD23D93F0C /* PBXTargetDependency */,
+				278A7346623DA40951AD3A59BC5EE67C /* PBXTargetDependency */,
 			);
 			name = "Pods-LeeButtonLayout_Example";
 			productName = Pods_LeeButtonLayout_Example;
@@ -288,7 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B82BABE4234E87F80BC9B7C49062CB0F /* PBXTargetDependency */,
+				83D2A181BD21008280F4DE326CEAA744 /* PBXTargetDependency */,
 			);
 			name = "Pods-LeeButtonLayout_Tests";
 			productName = Pods_LeeButtonLayout_Tests;
@@ -297,12 +319,12 @@
 		};
 		6DF8C4A088A761FE31CEDC34ECF34725 /* LeeButtonLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 329DF5165B096A7FC96F6208CBA519F5 /* Build configuration list for PBXNativeTarget "LeeButtonLayout" */;
+			buildConfigurationList = 45E5D6DCE8287781ACD7933E82C94037 /* Build configuration list for PBXNativeTarget "LeeButtonLayout" */;
 			buildPhases = (
-				1CF6A0D8C6FBB5FEC35495C284B9AB6B /* Headers */,
-				A44F42E013E52F9910524124F55E32AC /* Sources */,
-				F234C69735A6A690DE0D717ECE9D5EB7 /* Frameworks */,
-				A4C1680B294E3BAEA7D4E0E0CE403238 /* Resources */,
+				4E85B510A53C5B35C1A03BD078A09A48 /* Headers */,
+				6B7F60C1D1F43BDEDF0177BEF1FC8BFC /* Sources */,
+				B0B2E66CFE9897A15B595D7DFF13B687 /* Frameworks */,
+				CF7EDFD6ECF922877B037D5DE2A46790 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -350,14 +372,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4C1680B294E3BAEA7D4E0E0CE403238 /* Resources */ = {
+		BAD240A360D0842AFDDD20BA0EA98238 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAD240A360D0842AFDDD20BA0EA98238 /* Resources */ = {
+		CF7EDFD6ECF922877B037D5DE2A46790 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,12 +389,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A44F42E013E52F9910524124F55E32AC /* Sources */ = {
+		6B7F60C1D1F43BDEDF0177BEF1FC8BFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72B495E7D7E4115DAE0DC6435CD39A38 /* LeeButtonLayout-dummy.m in Sources */,
-				48ED6AF2AA8DD2C77A97E8BC0336E4C3 /* UIButton+LEELayout.m in Sources */,
+				302CF9728F3B139648AB439F0624AD08 /* LeeButtonLayout-dummy.m in Sources */,
+				89F775B83D6376C5E446BE64A8E453C8 /* UIButton+LEELayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,17 +417,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B82BABE4234E87F80BC9B7C49062CB0F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LeeButtonLayout_Example";
-			target = 4CC15629B948AFFAE8EC80FE772F0F36 /* Pods-LeeButtonLayout_Example */;
-			targetProxy = 7E58A9ED3EFACE9DCB7E11F79A3C91E2 /* PBXContainerItemProxy */;
-		};
-		B8B9E13A6E34C99DBD0F49CD23D93F0C /* PBXTargetDependency */ = {
+		278A7346623DA40951AD3A59BC5EE67C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LeeButtonLayout;
 			target = 6DF8C4A088A761FE31CEDC34ECF34725 /* LeeButtonLayout */;
-			targetProxy = 78081B226BF587ABCCD17217DB24282D /* PBXContainerItemProxy */;
+			targetProxy = ED4574091D9C53163727B9F39968F627 /* PBXContainerItemProxy */;
+		};
+		83D2A181BD21008280F4DE326CEAA744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LeeButtonLayout_Example";
+			target = 4CC15629B948AFFAE8EC80FE772F0F36 /* Pods-LeeButtonLayout_Example */;
+			targetProxy = 0B52CD98F81AAD426DB5E95396017F8A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -476,9 +498,9 @@
 			};
 			name = Debug;
 		};
-		2E7A25AE819F152D96B394439B581964 /* Release */ = {
+		38CD0233C8392F9CAA92A8E0CECDD8A7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 703FED69897C5130E0EA2DD042273627 /* LeeButtonLayout.release.xcconfig */;
+			baseConfigurationReference = 331ED5AA629F0218BB2AD7E0A7334D0A /* LeeButtonLayout.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -539,6 +561,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5E5FE3172ADFDD1B0679DE2DD9821094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8252D6D07B1EED680308CBCECADF1CDD /* LeeButtonLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeeButtonLayout/LeeButtonLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeeButtonLayout/LeeButtonLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeeButtonLayout/LeeButtonLayout.modulemap";
+				PRODUCT_MODULE_NAME = LeeButtonLayout;
+				PRODUCT_NAME = LeeButtonLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		A61E7084048C8738737E1FE909D98B4A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -667,36 +719,6 @@
 			};
 			name = Release;
 		};
-		CEA8BAAC74EB114578BD99E6A5034F25 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6E331C70FBE8FBDAC76BC91C88E430B /* LeeButtonLayout.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LeeButtonLayout/LeeButtonLayout-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LeeButtonLayout/LeeButtonLayout-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LeeButtonLayout/LeeButtonLayout.modulemap";
-				PRODUCT_MODULE_NAME = LeeButtonLayout;
-				PRODUCT_NAME = LeeButtonLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		F4464B3BC1D9A1D52B37A01EFCEB10ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81769BAE6A6405F2713628AEE1FF9204 /* Pods-LeeButtonLayout_Example.debug.xcconfig */;
@@ -732,11 +754,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		329DF5165B096A7FC96F6208CBA519F5 /* Build configuration list for PBXNativeTarget "LeeButtonLayout" */ = {
+		45E5D6DCE8287781ACD7933E82C94037 /* Build configuration list for PBXNativeTarget "LeeButtonLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA8BAAC74EB114578BD99E6A5034F25 /* Debug */,
-				2E7A25AE819F152D96B394439B581964 /* Release */,
+				5E5FE3172ADFDD1B0679DE2DD9821094 /* Debug */,
+				38CD0233C8392F9CAA92A8E0CECDD8A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

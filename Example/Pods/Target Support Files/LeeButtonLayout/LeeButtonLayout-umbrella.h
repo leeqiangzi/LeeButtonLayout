@@ -11,6 +11,7 @@
 #endif
 
 #import "UIButton+LEELayout.h"
+#import "Tool.h"
 
 FOUNDATION_EXPORT double LeeButtonLayoutVersionNumber;
 FOUNDATION_EXPORT const unsigned char LeeButtonLayoutVersionString[];
