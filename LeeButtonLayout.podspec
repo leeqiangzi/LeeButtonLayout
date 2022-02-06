@@ -30,7 +30,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'LeeButtonLayout/Classes/**/*'
+#  不指定子库，代表将所有子库安装
+#  s.source_files = 'LeeButtonLayout/Classes/**/*'
+
+  s.subspec 'Category' do |c|
+      c.source_files='LeeButtonLayout/Classes/Category/**/*'
+      c.dependency 'SDWebImage'
+  end
+  
+  s.subspec 'Tool' do |t|
+      t.source_files='LeeButtonLayout/Classes/Tool/**/*'
+      t.dependency 'AFNetworking'
+  end
   
   # s.resource_bundles = {
   #   'LeeButtonLayout' => ['LeeButtonLayout/Assets/*.png']
